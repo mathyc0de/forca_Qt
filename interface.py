@@ -13,7 +13,7 @@ def resource_path(relative_path):
 
     return os.path.join(base_path, relative_path)
 
-icon_path = resource_path("icon.png")
+icon_path = resource_path("media\icon.png")
 
 class Ui_Jogo_da_Forca(object):
     
