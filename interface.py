@@ -307,6 +307,9 @@ def gamestatus() -> None:
           Jogo_da_Forca.setCurrentIndex(2)
      ui.texto.setText(f"<html><head/><body><p align=\"center\"><span style=\" font-size:36pt;\">{ui.jogo.adivinhando}</span></p></body></html>")
      if ui.jogo.chances == 0:
+         ui.status.setStyleSheet(u"font: 48pt \"Segoe UI\";\n"
+"color: rgb(255, 0, 0);")
+          ui.status.setText("<html><head/><body><p>Você perdeu!</p></body></html>")
           Jogo_da_Forca.setCurrentIndex(2)
 
 
